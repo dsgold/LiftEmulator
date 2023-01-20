@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+  
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+button {
+  padding: 5px 0;
+  border: 1px solid #FFFFFF;
+  font-size: 14px;
+  background-color:#5242e3;
+  border-radius: 5px;
+  width: 100px;
+}
+button:hover {
+  opacity: .8;
+  cursor: pointer;
+  transform: scale(1.1);
+}
